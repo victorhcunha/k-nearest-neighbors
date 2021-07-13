@@ -1,0 +1,12 @@
+# Descrição da Atividade
+
+A atividade consiste na implementação do algoritmo kNN em python. Nesta atividade não devem ser usadas bibliotecas de machine learning do python. Porém, vocês podem usar bibliotecas para trabalhar com vetores/matrizes, calcular distâncias (Euclideanas) e ordenar
+matrizes/vetores. Além disso, vocês devem também rodar o kNN disponível no scikit-learn (https://scikit-learn.org/stable/modules/generated/sklearn.neighbors.KNeighborsClassifier.html) e comparar com os resultados obtidos na implementação de vocês. Vocês podem começar fazendo os experimentos com o scikit e depois implementam o kNN diretamente em python.
+
+A implementação deve ser testada na base de dados Iris (https://archive.ics.uci.edu/ml/datasets/iris). Ela está disponivel aqui: https://archive.ics.uci.edu/ml/machine-learning-databases/iris/
+
+Como expliquei na aula, vocês devem ter o cuidado de dividir a base em 75% dos dados para treinamento e 25% dos dados para compor o conjunto de testes. Na divisão, procurem garantir que as três classes estejam representadas de forma balanceada nos conjuntos.
+
+Vocês devem calcular a acurária (taxa de acerto de classificação) no conjunto de teste. Vocês devem rodar para k=1, 3, 5, 7 e 9. Coloquem os resultados em uma tabela e comentem (no máximo em um página).
+
+Anexem o PDF e também o código.
